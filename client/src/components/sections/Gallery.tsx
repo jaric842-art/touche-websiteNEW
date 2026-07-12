@@ -25,7 +25,7 @@ const GALLERY_EXTRA_6 = "https://d2xsxph8kpxj0f.cloudfront.net/31051966348838180
 const GALLERY_EXTRA_7 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663488381809/KSMkqH6mZzVDZTcKRMb8Hh/gallery_extra_7_5d99b8d9.jpeg";
 const GALLERY_EXTRA_8 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663488381809/KSMkqH6mZzVDZTcKRMb8Hh/gallery_extra_8_83f1c65d.jpeg";
 const GALLERY_EXTRA_9 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663488381809/KSMkqH6mZzVDZTcKRMb8Hh/gallery_extra_9_afece340.jpeg";
-
+const GALLERY_EXTRA_10 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663488381809/KSMkqH6mZzVDZTcKRMb8Hh/gallery_extra_10_3b410229.jpeg";
 
 type GalleryItem = { id: number; src: string; alt: string };
 
@@ -33,18 +33,18 @@ const galleryItems: GalleryItem[] = [
   { id: 1, src: GALLERY_NAIL_1, alt: "Nude gelnagels met accent" },
   { id: 2, src: GALLERY_NAIL_3, alt: "Natuurlijke gelnagels" },
   { id: 3, src: GALLERY_NAIL_4, alt: "Roze gelnagels met glitter" },
-  { id: 4, src: GALLERY_NAIL_2, alt: "Burgundy nail art" },
+  { id: 4, src: GALLERY_EXTRA_2, alt: "Nail art met glitter" },
   { id: 5, src: GALLERY_NAIL_5, alt: "Nail art met goud accenten" },
   { id: 6, src: GALLERY_BIAB, alt: "BIAB nude gelnagels" },
   { id: 7, src: GALLERY_EXTRA_1, alt: "Nail art resultaat 1" },
-  { id: 8, src: GALLERY_EXTRA_2, alt: "Nail art resultaat 2" },
-  { id: 9, src: GALLERY_EXTRA_3, alt: "Nail art resultaat 3" },
-  { id: 10, src: GALLERY_EXTRA_4, alt: "Nail art resultaat 4" },
-  { id: 11, src: GALLERY_EXTRA_5, alt: "Nail art resultaat 5" },
-  { id: 12, src: GALLERY_EXTRA_6, alt: "Nail art resultaat 6" },
-  { id: 13, src: GALLERY_EXTRA_7, alt: "Nail art resultaat 7" },
-  { id: 14, src: GALLERY_EXTRA_8, alt: "Nail art resultaat 8" },
-  { id: 15, src: GALLERY_EXTRA_9, alt: "Nail art resultaat 9" },
+  { id: 8, src: GALLERY_EXTRA_3, alt: "Nail art resultaat 2" },
+  { id: 9, src: GALLERY_EXTRA_4, alt: "Nail art resultaat 3" },
+  { id: 10, src: GALLERY_EXTRA_5, alt: "Nail art resultaat 4" },
+  { id: 11, src: GALLERY_EXTRA_6, alt: "Nail art resultaat 5" },
+  { id: 12, src: GALLERY_EXTRA_7, alt: "Nail art resultaat 6" },
+  { id: 13, src: GALLERY_EXTRA_8, alt: "Nail art resultaat 7" },
+  { id: 14, src: GALLERY_EXTRA_9, alt: "Nail art resultaat 8" },
+  { id: 15, src: GALLERY_EXTRA_10, alt: "Nail art resultaat 9" },
 
 ];
 
